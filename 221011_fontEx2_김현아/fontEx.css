@@ -45,10 +45,11 @@ a:hover{
 
 #txt2{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     color:rgb(37, 158, 142);
     text-align: center;
     text-decoration: underline;
+    line-height: 50px;
 }
 
 
