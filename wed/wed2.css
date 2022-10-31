@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    /* background-image: url(./bg.webp); */
+    font-family: 한초롱굴림;
+    background-image: url(./bg.webp);
+}
+
+#container{
+    width: 951px;
+    height: 734px;;
+    margin: 10px  auto 0px auto ;
+    border: #eeb0b0 solid 5px;
+    background-color: #f1eee9;
+}
+h1{
+    background-color:#7d1e6a;
+    height: 105px;
+    margin: 0;
+    color: white;
+}
+
+header h1 span{
+    display: inline-block;
+    width: 250px;
+    padding-top:5px;
+    margin: 23px 0 50px 0px;
+    line-height: 0.7;
+    vertical-align: top;
+}
+
+header h1 span em{
+    font-style: normal;
+    font-size: 25px;
+}
+header h1 img{
+    width: 80px; height: 80px;
+    margin: 10px 0 0 10px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    width: 950px;height: 42PX; 
+    margin: 0;
+}
+
+nav ul{
+    background-color: yellow;
+}
+
+nav li{
+    float: left;  
+}
+
+nav a{
+    display: block;
+    padding: 10px 20px;
+    color: #7d1e6a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.box1{
+    width: 304px;
+    clear: both;
+    float: left;
+}
+
+h3{
+    color:#e51824;
+}
+
+article img{
+    object-fit: cover;
+    width: 290px; height: 190px;
+    border: 6px white solid;
+}
+
+figcaption{
+    text-align: right;
+    margin-right: 7px;
+}
+
+figure{
+    width: 304px; height: 230px;
+    border: 1px #e51824 solid;
+    margin: 20px;
+    background-color: white;
+}
+
+.box2{
+    float: left;
+    width: 277px;  height: ;
+    margin: 0 50px;
+
+}
+
+.box4{
+    padding-top: 80px;
+    
+}
+
+aside{
+margin-left: 100px;
+overflow: hidden;
+background-color: white;
+
+}
+
+aside ul{
+    float: left;
+    width: 269px; height: 540px;
+    font-size: 19px;
+    border-left: 1px#e51824 solid; ;
+    
+    
+}
+
+aside ul li{
+    border: 1px#e51824 solid;
+    border-bottom:0 ;
+    border-right:0 ;
+    border-left:0 ;
+   
+}
+
+aside #top,#last{
+    border-top: 0;
+}
+
+#top{
+    margin: 0;
+}
+
+
+aside ul li a{
+    display: block;
+    padding: 25px;
+}
+
+aside ul li em,#top{
+    font-style: normal;
+    color:#e51824;
+    font-weight: bold;
+    font-size: 30px;
+   padding: 25px;
+}
+
+aside ul li p{
+    padding-left:25px;
+}
+
+aside ul li em{
+    display: block;
+    padding-bottom: 0;
+}
+
+
+
+
+footer{
+    clear: both;
+    font-size: 20px;
+    padding: 10px;
+    background-color:#7d1e6a;
+    color:white
+}
+
+a:hover{
+    background-color:  #eeb0b0;
+}
