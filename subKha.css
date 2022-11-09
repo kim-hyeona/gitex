@@ -206,11 +206,23 @@ font-size: 16px;
 .container2 h5{
   margin: auto;
   text-align: left;
-  width: 320px;
+  width: 400px;
   font-size: 38px;
   position: absolute;
-  left: 242px; bottom: 250px;
-  line-height: 1.5;
+  left: 220px; bottom: 210px;
+  
+  z-index: 9;
+  font-size: 46px;
+}
+
+.container2 h5 span::after{
+    content: "";
+    width: 70%; height: 30px;
+    background-color: #e2e9f3;
+    position: absolute;
+    bottom: 5px; left: 0;
+    z-index: -1;
+
 }
 
 @media screen and (max-width: 1500px) {
@@ -227,7 +239,7 @@ font-size: 16px;
   display: flex;
   align-self: flex-end;
   z-index: 99999;
-  animation: scale5 3s forwards alternate
+  animation: scale5 3s forwards alternate;
 
 
 }
@@ -250,14 +262,17 @@ font-size: 16px;
   }
 } 
 
-
-
-.hand{
+.coin{
+  animation: scale6 3s forwards;
+  position: absolute;
+  top:150px; right: 60px;
+  z-index: 9999;
+}
+.phon{
+  animation: scale3 3s forwards ;
   position: absolute;
   top:200px; right: 0;
   z-index: 9999;
-  animation: scale3 3s forwards ;
-
 }
 
 .bg{
@@ -319,6 +334,14 @@ animation: scale1 2s forwards alternate
   100% { transform: scale(1) }
 
 }
+@keyframes scale6 {
+  0%, 60%{ transform: scale(0)}
+
+    85% {
+    -webkit-transform: translateY(100px);
+ 
+}
+}
 
 @keyframes scale5 {
   from {
@@ -331,3 +354,6 @@ animation: scale1 2s forwards alternate
   100% { transform: scale(1) }
 
 }
+
+
+
